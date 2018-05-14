@@ -1,0 +1,16 @@
+<!--index.wxml-->
+
+  <view class="page__bd">
+    <view class="weui-grids header-container">
+      <block wx:for="{{grids}}" wx:key="*this">
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <view class="weui-grid__label header-value">{{item.value}}</view>
+          <view class="weui-grid__label header-name">{{item.name}}</view>
+        </navigator>
+      </block>
+    </view>
+  </view>
+
+  <view class='device-ttitle'>
+    <text>设备</text>
+  </view>

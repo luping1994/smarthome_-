@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/tools/tool"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3770c7",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor":"#3770c7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "管理",
+        "iconPath": "image/ic_1.png",
+        "selectedIconPath": "image/ic_1_selected.png"
+      },
+      {
+        "pagePath": "pages/tools/tool",
+        "text": "工具",
+        "iconPath": "image/ic_1.png",
+        "selectedIconPath": "image/ic_1_selected.png"
+      }
+      ,
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+          "iconPath": "image/ic_1.png",
+          "selectedIconPath": "image/ic_1_selected.png"
+      }
+    ]
+  }
+}
