@@ -1,2 +1,16 @@
 <!--pages/tools/tool.wxml-->
-<text>我是工具</text>
+
+   <view class="page__bd">
+        <view class="st-tool-grids">
+    
+                <view  class="st-tool-grid border-right" hover-class="weui-grid_active" >
+                    <image class="weui-grid__icon" src="../../image/ic_query.png" />
+                    <view class="weui-grid__label">查询</view>
+                </view>
+
+                <view  class="st-tool-grid border-left" hover-class="weui-grid_active" >
+                    <image class="weui-grid__icon" src="../../image/ic_qrscan.png" />
+                    <view class="weui-grid__label">扫一扫</view>
+                </view>
+        </view>
+    </view>

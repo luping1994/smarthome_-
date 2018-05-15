@@ -1,8 +1,37 @@
-.log-list {
+.userinfo {
   display: flex;
   flex-direction: column;
-  padding: 40rpx;
+  align-items: center;
 }
-.log-item {
-  margin: 10rpx;
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #333;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.userinfo-phone-number {
+  margin-top: -10rpx;
+  color: #16acf3;
+  font-size: 25rpx;
+}
+
+.placeholder {
+  margin: 20rpx;
+  padding: 0 10px;
+  vertical-align: center;
+  width: 128rpx;
+  height: 128rpx;
+  color: #cfcfcf;
+   
+}
+
+.border{
+   background: red;
 }

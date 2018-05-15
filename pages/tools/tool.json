@@ -1,3 +1,8 @@
 {
-  "navigationBarTitleText": "工具"
-  }
+  "navigationBarTitleText": "工具",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "backgroundColor": "#ffffff"
+}

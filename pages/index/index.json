@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "三川管家",
-  "enablePullDownRefresh": true
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle":"dark",
+  "backgroundColor":"#3770c7"
 }

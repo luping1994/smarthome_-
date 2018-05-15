@@ -1,6 +1,20 @@
+<view class="">
+  <view class="weui-flex" style='margin-top:20rpx'>
+    <view class="weui-flex__item">
+      <view class="placeholder">
+        <view >
+          <text class='userinfo-nickname'>{{userInfo.nickName}}</text>
+        </view>
+        <view  class='userinfo-phone-number'>
+          15899694150
+        </view>
+      </view>
+    </view>
+    <view>
+      <view class="placeholder">
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      </view>
+    </view>
+  </view>
 
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
 </view>

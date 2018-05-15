@@ -8,8 +8,15 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    grids: [{ name: "保护告警", value: "60" }, { name: "离线设备", value: "61" }, { name: "能耗采集异常", value: "62" }]
+    grids: [{ name: "保护告警", value: "60" }, { name: "离线设备", value: "61" }, { name: "能耗采集异常", value: "62" }],
+    devices: [{ name: "十通道", type: "4100", img: "../../image/4100.jpg" }, { name: "六通道", type: "4300", img: "../../image/4300.jpg" }, { name: "第六感", type: "6300", img: "../../image/6300.jpg" }, { name: "RTU", type: "RTU", img: "../../image/rtu.jpg" }, { name: "单相电表", type: "meter1", img: "../../image/meter1.jpg" }, { name: "三相电表", type: "meter3", img: "../../image/meter3.jpg" }]
 
+  },
+
+  //设备item点击事件
+  clickDevicesItem: function (e) {
+    var $type = e.currentTarget.dataset.vtype;
+    console.log($type);
   },
   //下拉刷新
   onPullDownRefresh: function (e) {

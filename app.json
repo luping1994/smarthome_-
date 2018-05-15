@@ -22,15 +22,15 @@
       {
         "pagePath": "pages/tools/tool",
         "text": "工具",
-        "iconPath": "image/ic_1.png",
-        "selectedIconPath": "image/ic_1_selected.png"
+        "iconPath": "image/tool_unselected.png",
+        "selectedIconPath": "image/tool_selected.png"
       }
       ,
       {
         "pagePath": "pages/me/me",
         "text": "我的",
-          "iconPath": "image/ic_1.png",
-          "selectedIconPath": "image/ic_1_selected.png"
+          "iconPath": "image/me_unselected.png",
+          "selectedIconPath": "image/me_selected.png"
       }
     ]
   }

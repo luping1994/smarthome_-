@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    items:[{name:"查询",icon:"../image/4100.png"},{name:"扫一扫",icon:"../image/4300.png"}]
   },
 
   /**

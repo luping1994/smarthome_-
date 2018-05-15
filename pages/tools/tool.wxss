@@ -1,1 +1,23 @@
 /* pages/tools/tool.wxss */
+.st-tool-grids{
+  border-bottom: 10px solid #f8f8f8;
+  overflow: hidden;
+}
+.st-tool-grid {
+  position: relative;
+  float: left;
+  padding: 20px 10px;
+  width: 50%;
+  box-sizing: border-box;
+   /* border-right: 1rpx solid #d9d9d9;  */
+  /* border-bottom: 1rpx solid #d9d9d9; */
+}
+
+.border-right{
+      border-right: 1rpx solid #f8f8f8;  
+   
+}
+
+.border-left{
+      border-left: 1rpx solid #f8f8f8;  
+}

@@ -3,7 +3,7 @@
   <view class="page__bd">
     <view class="weui-grids header-container">
       <block wx:for="{{grids}}" wx:key="*this">
-        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active weui-grid_active-header">
           <view class="weui-grid__label header-value">{{item.value}}</view>
           <view class="weui-grid__label header-name">{{item.name}}</view>
         </navigator>
@@ -14,3 +14,14 @@
   <view class='device-ttitle'>
     <text>设备</text>
   </view>
+
+   <view class="page__bd">
+        <view class="weui-grids">
+            <block  wx:for="{{devices}}" wx:key="a">
+                <view bindtap='clickDevicesItem' class="weui-grid" hover-class="weui-grid_active" data-vtype="{{item.type}}">
+                    <image class="weui-grid__icon" src="{{item.img}}" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </view>
+            </block>
+        </view>
+    </view>
